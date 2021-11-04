@@ -1,0 +1,156 @@
+.header {
+	width: 100%;
+	height: 67px;
+	position: relative;
+	border-bottom: 3px solid #D8D8D8;
+}
+
+.header-left {
+	position: absolute;
+	left: 250px;
+}
+
+.header-left img {
+	width: 140px;
+	height: 50px;
+}
+
+.header-right {
+	position: absolute;
+	left: 1100px;
+	float: right;
+}
+
+.header-right p {
+	display: inline;
+	color: #666;
+	font-size: 14px;
+	line-height: 67px;
+}
+
+.header-right input {
+	width: 50px;
+	height: 25px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #222;
+	background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+	border-width: 0;
+	box-shadow: 0 2px 1px rgb(191 105 0 / 15%);
+	background-size: 100%;
+}
+.register{
+    width:100%;
+    height:550px;
+    background-color: #F7F8F8;
+
+
+}
+.register-center{
+    width: 1190px;
+    height:480px;
+    background-color: #fff;
+    margin:0 auto;
+    border:1px solid #ccc;
+
+}
+.register-center-form{
+    width: 550px;
+    height:480px;
+    /* background-color: red; */
+    /* border:1px solid #ccc; */
+    margin-left:70px;
+    float: left;
+}
+.register-center-form input{
+    width: 260px;
+    height:36px;
+    border:1px solid #aaa;
+    margin:20px 10px;
+}   
+.register-center-form button{
+    width: 180px;
+    height:20px;
+    border:1px solid #aaa;
+    margin-left:78px;
+}  
+#frmContact{
+    width: 180px;
+    height:40px;
+    margin-left:78px;
+    border:1px solid #FFBE00;
+    background-color: #FFBE00;
+    color: #222;
+    font-size:16px;
+    font-weight: 600;
+    margin-bottom:0px;
+}
+.register-center-img{
+    width: 550px;
+    height:480px;
+    /* background-color: blue; */
+    /* border:1px solid #ccc; */
+    float: left;
+}
+.register-center-img img{
+    margin:100px 90px;
+}
+.register-center-form a{ 
+    color: #FE8C00;
+    text-decoration: none;
+    font-size:13px;
+    padding-left: 78px;
+}
+.register-center-form a:last-child{   
+    padding-left: 0px;
+}
+/*字体图标的颜色改变*/
+.icon-times-circle{
+	color:red;
+}
+.icon-check-circle{
+	color:green;
+}
+/*禁用谷歌的默认选择效果*/
+input,textarea:focus {   
+    outline: none;   
+}  
+/*控制提示文字的显示隐藏*/
+.display-none{
+	display:none;
+}
+.display-block{	
+	display:block;
+}
+.display-inline{
+	display:inline-block;
+}
+#tips{	
+	font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 260px;
+    border-right: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    background: #EEEEEE;
+    margin-left:80px;
+}
+#tips b {
+    float: left;
+    width: 63px;
+    height: 20px;
+    color: white;
+    background: #EEEEEE;
+    margin-right: 2px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+#frmContact:hover{	
+	cursor:pointer;
+}
+button:hover{
+	background-color: #FE8C00;
+	cursor: pointer;
+}

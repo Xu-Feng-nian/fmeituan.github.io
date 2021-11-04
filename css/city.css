@@ -1,0 +1,184 @@
+/*头部区域css在com_header.css*/
+/*搜索区域*/
+.header{
+	width: 100%;
+	height: 157px;
+	/*background: red;*/
+	box-shadow: 0 2px 27px 0 rgb(0 0 0 / 10%);
+}
+.header-center{
+	width: 1190px;
+	height: 157px;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+/*LOGO区*/
+.header-center-left{
+	width: 295px;
+	height: 157px;
+	/*background: pink;*/
+	font-size: 0;
+	float: left;
+}
+.header-center-left h1 a img{
+	width: 126px;
+	height: 46px;
+	padding: 26px 60px 64px 10px;
+
+}
+.header-center-center{
+	width: 560px;
+	height: 40px;
+	/*background: green;*/
+	font-size: 0;
+	float: left;
+	margin-top: 28px;
+}
+.header-center-center input{
+	width: 468px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+}
+.header-center-center input[type=text]{
+	padding-left: 10px;
+}
+.header-center-center button{
+	width: 80px;
+	height: 41px;
+	border: 1px solid #e5e5e5;
+	border-left-width: 0px;
+	background: #fec300;
+}
+.center{
+	margin: 0px auto;
+	width: 1190px;
+	height: 4700px;
+	border: 1px solid #e5e5e5b9;
+}
+.center-choose{
+	float: left;
+	width: 1000px;
+	height: 100px;
+	margin: 10px ;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.center-choose div{
+	display: inline-block;
+	margin: 10px 10px;
+}
+.center-choose div p{
+	display: inline;
+	line-height: 40px;
+}
+.center-choose-right p{
+	margin-left: 30px;
+}
+.center-choose-choose{
+	width: 150px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+}
+.center-choose-city{
+	width: 150px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+}
+.center-choose-search{
+	width: 150px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+}
+h3,p{
+	display: inline;
+}
+.center-city{
+	line-height: 40px;
+	margin: 30px 0px;
+	float: left;
+	width: 1000px;
+	height: 70px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.center-city h3{
+	margin-left: 20px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.center-city p a{
+	margin: 0px 20px;
+}
+.center-city p a:hover{
+	cursor: pointer;
+}
+.center-visit{
+	line-height: 40px;
+	/* margin: 30px 0px; */
+	float: left;
+	width: 1000px;
+	height: 70px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.center-visit h3{
+	margin-left: 20px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.center-visit p a{
+	margin-left: 20px;
+}
+.center-initial{
+	line-height: 40px;
+	margin-top: 30px;
+	float: left;
+	width: 1000px;
+	height: 70px;
+}
+.center-initial h3{
+	margin-left: 20px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.center-initial p a{
+	margin: 0px 10px;
+}
+.letter{
+	width: 1148px;
+	height: 4336px;
+	margin: 430px 20px 0px;
+	margin-top: 430px;
+	/* background-color: red; */
+}
+.cityA{
+	width: 1148px;
+	height: 104.4px;
+	margin: 20px;
+}
+.city-lable{
+	box-sizing: border-box;
+    vertical-align: top;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #222222;
+    background: #FFD000;
+    /* box-shadow: 0 4px 5px 0 rgb(39 178 164 / 22%); */
+}
+.cities{
+	width: 1148px;
+	height: 104.4px;
+	display: inline-block;
+    max-width: 1065px;
+	
+}
+.cities a{
+	line-height: 50px;
+	margin: 10px 20px;
+	font-size: 14px;
+}
+.letter div:hover{
+	background: #f8f8f8af;
+}

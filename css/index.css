@@ -1,0 +1,692 @@
+/*头部区域css在com_header.css*/
+/*搜索区域*/
+.header{
+	width: 100%;
+	height: 157px;
+	/*background: red;*/
+	box-shadow: 0 2px 27px 0 rgb(0 0 0 / 10%);
+}
+.header-center{
+	width: 1190px;
+	height: 157px;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+/*LOGO区*/
+.header-center-left{
+	width: 295px;
+	height: 157px;
+	/*background: pink;*/
+	font-size: 0;
+	float: left;
+}
+.header-center-left h1 a img{
+	width: 126px;
+	height: 46px;
+	padding: 26px 60px 64px 10px;
+
+}
+.header-center-center{
+	width: 560px;
+	height: 40px;
+	/*background: green;*/
+	font-size: 0;
+	float: left;
+	margin-top: 28px;
+}
+.header-center-center input{
+	width: 468px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+}
+.header-center-center input[type=text]{
+	padding-left: 10px;
+}
+.header-center-center button{
+	width: 80px;
+	height: 41px;
+	border: 1px solid #e5e5e5;
+	border-left-width: 0px;
+	background: #fec300;
+}
+/*主体区域*/
+.bodyer{
+	width: 100%;
+	height: 427px;
+	/*background: red;*/
+}
+.bodyer-center{
+	width: 1190px;
+	height: 427px;
+	/*background: green;*/
+	margin: 0 auto;
+}
+/*全部分类*/
+.bodyer-center-left{
+	width: 228px;
+	height: 473px;
+	/*background: pink;*/
+	float: left;
+	margin-top: -50px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+}
+/*全部分类的详细效果*/
+.bodyer-center-left span:nth-child(1){
+	color: #222;
+	font-size: 18px;
+	font-weight: 700;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 15px;
+}
+/*li列表项的效果*/
+.bodyer-center-left ul li{
+	width: 218px;
+	height: 22px;
+	padding: 2px 0px 2px 12px;
+}
+.bodyer-center-left ul li span a{
+	font-size: 13px;
+	line-height: 22px;
+	color: black;
+	cursor: pointer; /*鼠标变成手*/
+}
+.bodyer-center-left ul li span{
+	font-size: 13px;
+	line-height: 22px;
+	color: #646464;
+	cursor: pointer; /*鼠标变成手*/
+}
+.bodyer-center-left ul li b{
+	position: absolute;
+	right: 13px;
+	color: #646464;
+	font-weight: 100;
+}
+/*hover效果的改变*/
+.bodyer-center-left ul li:hover{
+	background: #fff3cc;
+	color: black;
+	font-weight: 600;
+}
+/* .bodyer-center-left ul li span:hover{
+	
+} */
+/*字体图标颜色更改*/
+.icon-location{
+	color: #ff8200;
+}
+.displaynone-classify{
+	display: inline;
+	width: 340px;
+	height: 425px;
+	background: white;
+	position: absolute;
+	z-index: 3;
+	top: 76px;
+	left: 0px;
+	padding: 0px 30px;
+	display: none;
+}
+#dropright .show .displaynone-classify{
+	display: inline;
+	width: 340px;
+	height: 423px;
+	/* background: red; */
+	position: absolute;
+	z-index: 3;
+	margin-top: -25px;
+	margin-left: 220px;
+	padding: 0px 30px;
+	display: block;
+}
+.food{
+	width: 340px;
+	height: 33px;
+	/* background: green; */
+	margin: 20px 0px;
+	line-height: 33px;
+	border-bottom: 1px solid #a5a5ac;	
+}
+.food a:nth-child(1){
+	font-size: 16px;
+}
+.food a:nth-child(2){
+	font-size: 12px;
+	float: right;
+}
+.goodfood a:hover{
+	color: #ff8200;
+}
+.goodfood{
+	width: 340px;
+	/* background: black; */
+}
+.goodfood a{
+	margin: 5px 5px;
+	font-size: 12px;
+}
+/*轮播区域*/
+.bodyer-center-center{
+	width: 710px;
+	height: 475px;
+	/*background: blue;*/
+	float: left;
+	margin: -50px 8px 0px 8px;
+}
+.bodyer-center-center-top{
+	width: 710px;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+}
+.bodyer-center-center-top a:nth-child(1){
+	padding-left: 45px;
+}
+.bodyer-center-center-top a{
+	color: #000;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0px 15px;
+}
+
+.bodyer-center-center-top a:hover{
+	color:red;
+}
+#carousel img{
+	width: 550px;
+	height: 240px;
+}
+/*轮播下*/
+.bodyer-center-center-bottom{
+	width: 710px;
+	height: 420px;
+	/*background: pink;*/
+	margin-top: 7px;
+}
+.bodyer-center-center-bottom div:nth-child(1){
+	width: 550px;
+	height: 240px;
+	/*border: 1px solid red;*/
+	background: url(../images/1.jpg);
+	background-size: cover;	/*图片完全展示*/
+	float: left;
+}
+#carousel{
+	width:550px;
+	height: 240px;
+	/* border:1px solid red; */
+	position: relative;
+}
+#carousel-left{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	background-color: rgb(145, 142, 142);
+	opacity:0.50;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+	position:absolute;
+	top:110px;
+	cursor: pointer;
+}
+#carousel-right{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	background-color: rgb(145, 142, 142);
+	opacity:0.50;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+	position:absolute;
+	right:0;
+	top:110px;
+	cursor: pointer;
+}
+#carousel-number{
+	width:200px;
+	height:10px;
+	/* background-color: #fff; */
+	position: absolute;
+	top:200px;
+	left:200px;
+}
+#carousel-number ul li{
+	list-style: none;
+	width:20px;
+	height:10px;
+	margin-left:5px;
+	background: rgb(255, 255, 255);
+	opacity: 0.5;
+	float: left;
+	font-size: 0px;
+}
+.carousel1{
+	width: 150px;
+	height: 240px;
+/*	border: 1px solid red;*/
+	background: url(../images/2.jpg);
+	background-size: cover;	/*图片完全展示*/
+	margin-left: 10px;
+	float: left;
+}
+.carousel2{
+	width: 270px;
+	height: 166px;
+	/*border: 1px solid red;*/
+	background: url(../images/3.jpg);
+	background-size: cover;	/*图片完全展示*/
+	margin-top: 14px;
+	float: left;
+}
+.carousel3{
+	width: 270px;
+	height: 166px;
+	/*border: 1px solid red;*/
+	background: url(../images/4.jpg);
+	background-size: cover;	/*图片完全展示*/
+	margin-top: 14px;
+	margin-left: 10px;
+	float: left;
+}
+.carousel4{
+	width: 150px;
+	height: 166px;
+	/*border: 1px solid red;*/
+	background: url(../images/5.jpg);
+	background-size: cover;	/*图片完全展示*/
+	margin-top: 14px;
+	margin-left: 10px;
+	float: left;
+}
+/*注册和登录*/
+.bodyer-center-right{
+	width: 230px;
+	height: 420px;
+	/*background: yellow;*/
+	float: right;
+	margin-top: 7px;
+}
+.bodyer-center-right-top{
+	width: 238px;
+	height: 238px;
+	border: 1px solid #e5e5e5;
+}
+.bodyer-center-right-top div{
+	cursor: pointer;
+}
+.bodyer-center-right-top div a{
+	color: #000;
+}
+.bodyer-center-right-top div:nth-child(1){
+	width: 55px;
+	height: 55px;
+	background: url(../images/a1.jpg);
+	background-size: cover; /*显示全部图片*/
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 5px solid #e5e5e5;
+	border-radius: 50%;	/*登陆图片显示圆圈*/
+}
+.bodyer-center-right-top p:nth-child(2){
+	text-align: center;
+	color: #222;
+	font-size: 16px;
+	padding: 15px 0px;
+}
+.bodyer-center-right-top div:nth-child(3){
+	width: 118px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+	border-radius: 40px;	/*圆角属性*/
+	line-height: 38px;	
+	text-align: center;
+	margin: 0 auto;
+}
+.bodyer-center-right-top div:nth-child(4){
+	width: 118px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+	border-radius: 40px;	/*圆角属性*/
+	line-height: 38px;	
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+/*二维码和介绍*/
+.bodyer-center-right-bottom{
+	width: 238px;
+	height: 165px;
+	margin-top: 14px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+}
+.bodyer-center-right-bottom div:nth-child(1){
+	width: 95px;
+	height: 95px;
+	background: url("../images/a2.png");
+	margin: 0 auto;
+	background-size: cover;
+}
+.bodyer-center-right-bottom p{
+	font-size: 16px;
+	color: #222;
+	font-weight: 500;
+	padding: 2px 0px 2px 0px;
+	text-align: center;
+}
+.bodyer-center-right-bottom span{
+	color: #ec5330;
+}
+/*猫眼电影*/
+.movie{
+	width: 100%;
+	height: 350px;
+	/*background: red;*/
+	margin-top: 50px;
+}
+.movie-center{
+	width: 1190px;
+	height: 350px;
+	/*background: blue;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*电影介绍*/
+#movie{
+	width: 1190px;
+}
+#movie-left{
+	position: absolute;
+	top: 120px;
+	width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: #333;
+	font-size: 20px;
+	color: white;
+    border: 1px solid #d5d5d5;
+	cursor: pointer;
+	display: none;
+}
+#movie-right{
+	position: absolute;
+	top: 120px;
+	left: 1150px;
+	width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: #333;
+	font-size: 20px;
+	color: white;
+    border: 1px solid #d5d5d5;
+	cursor: pointer;
+	display: none;
+}
+.movie-center-top{
+	width: 1188px;
+	height: 44px;
+	line-height: 42px;
+	background: #fb3f60;
+	border: 1px solid #fb3f60;
+	border-radius: 5px 5px 0px 0px;
+}
+.movie-center-top span{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+}
+.movie-center-top span:nth-child(1){
+	font-size: 18px;
+	font-weight: 800;
+}
+.movie-center-top span:nth-child(4){
+	font-size: 16px;
+	display: block;
+	float: right;
+	margin-right: 15px;
+}
+/*电影列表*/
+#movie-center-bottom{
+	position: relative;
+	width: 2380px;
+	height: 297px;
+	overflow: hidden;
+}
+#movie-center-bottom div{
+	width: 214px;
+	height: 297px;
+	float: left;
+	margin: 1px 10px;
+}
+#movie-center-bottom div:nth-child(1){
+	margin-left: 10px;
+}
+#movie-center-bottom div img{
+	width: 214px;
+	height: 297px;
+}
+/*推荐民宿*/
+.hotel{
+	width: 100%;
+	height: 740px;
+	margin-top: 50px;
+}
+.hotel-center{
+	width: 1190px;
+	height: 740px;
+	margin: 0 auto;
+}
+/*民宿顶部*/
+.hotel-center-top{
+	width: 1188px;
+	height: 44px;
+	line-height: 42px;
+	background: #f2c146;
+	border: 1px solid #f2c146;
+	border-radius: 5px 5px 0px 0px;
+}
+.hotel-center-top span{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+}
+.hotel-center-top span:nth-child(1){
+	font-size: 18px;
+	font-weight: 800;
+}
+.hotel-center-top span:nth-child(9){
+	font-size: 16px;
+	display: block;
+	float: right;
+	margin-right: 15px;
+}
+/*民宿详情*/
+.hotel-center-bottom{
+	width: 1188px;
+	height: 693px;
+	border: 1px solid #e5e5e5;
+}
+.hotel-center-bottom div{
+	width: 370px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+}
+.hotel-center-bottom div:nth-child(1){
+	margin-left: 20px;
+}
+.hotel-center-bottom div:nth-child(4){
+	margin-left: 20px;
+}
+.hotel-center-bottom div a img{
+	width: 370px;
+	height: 208px;
+}
+.hotel-center-bottom div span{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+	display: block;
+	white-space: nowrap;	/*文字不换行*/
+	overflow: hidden;	/*文字超出部分隐藏*/
+	text-overflow: ellipsis;	/*文字超出部分用省略号表示*/
+	margin: 5px 0ox 5px 0px;
+}
+.hotel-center-bottom div p{
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.hotel-center-bottom div b{
+	color: #ff6600;
+	font-size: 22px;
+
+}
+/*猜你喜欢*/
+.like{
+	display: block;
+	width: 100%;
+	height: 860px;
+	margin-top: 50px;
+}
+.like-center{
+	width: 1190px;
+	height: 850px;
+	margin: 0 auto;
+	border: 1px solid #e5e5e5;
+}
+/*猜你喜欢顶部*/
+.like-center-top{
+	width: 1188px;
+	height: 42px;
+	line-height: 42px;
+	background: #52b2d8;
+	border: 1px solid #52b2d8;
+	border-radius: 5px 5px 0px 0px;
+}
+.like-center-top span{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+}
+.like-center-top span:nth-child(1){
+	font-size: 18px;
+	font-weight: 800;
+}
+/*猜你喜欢的底部*/
+.like-center-bottom{
+	width: 1190px;
+	height: 850px;
+}
+.like-center-bottom .list{
+	width: 213px;
+	height: 250px;
+	float: left;
+	margin: 20px 0px 0px 20px;
+	border-radius: 5px;
+}
+.like-center-bottom .list img{
+	width: 213px;
+	height: 119px;
+}
+.like-center-bottom .list div:nth-child(2){
+	width: 213px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #222;
+	margin: 4px 0px;
+}
+.like-center-bottom .list div:nth-child(3){
+	width: 90px;
+	height: 22px;
+	background: url("../images/p1.png") no-repeat;
+	margin: 1px 0px;
+}
+.like-center-bottom .list div:nth-child(4){
+	width: 213px;
+	height: 20px;
+	color: #999;
+	font-size: 12px;
+	margin: 1px 0px;
+}
+.like-center-bottom .list div:nth-child(5){
+	width: 213px;
+	height: 22px;
+	color: #f60;
+	font-size: 22px;
+	margin: 1px 0px;
+
+}
+/*副导航区域*/
+.navbar{
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+}
+.navbar-center{
+	width: 1190px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid #e5e5e5;
+}
+/*导航开始*/
+.navbar-center-top{
+	width: 1190px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #222;
+	text-indent: 36px;	/*文字首行缩进*/
+}
+.navbar-center-bottom .hotcity{
+	width: 100px;
+	height: 70px;
+	font-size: 14px;
+	color: #222;
+	text-indent: 36px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.city{
+	width: 1000px;
+	height: 70px;
+	font-size: 14px;
+	color: #222;
+	text-indent: 36px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.navbar-center-bottom .city ul li{
+	width: 100px;
+	height: 35px;
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	color: #222;
+}
+.navbar-center-bottom .city ul li:hover{
+	color: pink;
+	cursor: pointer;
+}
+/* .hotel-center span:hover::after{
+	position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid red;
+    content: " ";
+    display: block;
+    width: 2px;
+    height: 0;
+    top: 37px;
+    left: 0;
+    right: 0;
+    margin: auto;
+} */
